@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Sign Up</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #378cdb;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 30px;
+        }
+
+        .logo .explore-plus {
+            font-size: 12px;
+            color: #eef5f4;
+            margin-left: 5px;
+        }
+
+        .search-bar {
+            width: 400px;
+            margin: 0 20px;
+            position: relative;
+        }
+
+        .search-bar input {
+            width: 100%;
+            height: 35px;
+            padding: 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .search-bar button {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .search-bar button i {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .left-section {
+            background-color: #408de6;
+            color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            width: 50%;
+            text-align: center;
+        }
+
+        .left-section h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .left-section p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .right-section {
+            width: 50%;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        .right-section h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .right-section input {
+            width: 100%;
+            height: 40px;
+            padding: 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .right-section button {
+            background-color: #f8951d;
+            color: #fff;
+            padding: 6px 8px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 8px;
+            width: 100%;
+        }
+
+        .right-section button:hover {
+            background-color: #f08000;
+        }
+
+        .right-section .existing-user {
+            background-color: #2b7adb;
+            border: 1px solid #000208;
+            border-radius: 5px;
+            padding: 8px 10px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .right-section .existing-user:hover {
+            background-color: #2969c8;
+        }
+
+        .left-section img {
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+        }
+
+        .footer {
+  background-color: #397fe1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-row {
+  width: 20%;
+  margin: 20px;
+}
+
+.footer-row h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-row ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-row li {
+  margin-bottom: 10px;
+}
+
+.footer-row a {
+  text-decoration: none;
+  color: #f4f5f6;
+}
+
+.footer-row a:hover {
+  color: #dde6ee;
+}
+
+.footer-row:last-child {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="Flipkart">
+            <span class="explore-plus">Explore Plus+</span>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+            <button type="button"><i class="fa fa-search"></i></button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="loginimage.png">Login</a></li>
+            <li><a href="https://hyyzo.com/blog/content/images/2023/03/How-to-sell-on-flipkart.jpg">Become a Seller</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">Cart</a></li>
+        </ul>
+    </header>
+    
+    <nav>
+        <div class="nav-links">
+            <li><a href="Electronics.jpeg">Electronics</a></li>
+            <li><a href="Appliances.webp">TVs & Appliances</a></li>
+            <li><a href="Men T-shirt.avif">Men</a></li>
+            <li><a href="Women T-shirt.webp">Women</a></li>
+            <li><a href="Beauty &Toys.jpeg">Baby & Kids</a></li>
+            <li><a href="Home & Fueniture.png">Home & Furniture</a></li>
+            <li><a href="Sports shoes.jpg">Sports, Books & More</a></li>
+            <li><a href="Travel.webp">Flights</a></li>
+            <li><a href="offer zone.jpg">Offer Zone</a></li>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left-section">
+            <h2>Login</h2>
+            <p>Get access to your Orders, Wishlist and Recommendations</p>
+            <img src="loginimage.png" alt="Laptop">
+        </div>
+        <div class="right-section">
+            <h3>Enter Mobile number</h3>
+            <input type="text" placeholder="Enter your mobile number">
+            <p>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+            <button type="button">CONTINUE</button>
+            <button class="existing-user" type="button">Existing User? Log in</button>
+        </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-row">
+          <h4>Get to Know Us</h4>
+          <ul>
+              <li><a href="https://corporate.flipkart.net/corporate-home" target="_blank">About Us</a></li>
+              <li><a href="https://www.flipkartcareers.com/?otracker=${otracker}_navlinks#!/" target="_blank">Careers</a></li>
+              <li><a href="https://stories.flipkart.com/category/top-stories/news/" target="_blank">Press Releases</a></li>
+          </ul>
+      </div>
+      <div class="footer-row">
+          <h4>Connect with Us</h4>
+          <ul>
+              <li><a href="https://www.facebook.com/mirsad.mondal.752" target="_blank">Facebook</a></li>
+              <li><a href="https://x.com/Mirsad790" target="_blank">Twitter</a></li>
+              <li><a href="https://www.instagram.com/m_mirsad790/?hl=en" target="_blank">Instagram</a></li>
+          </ul>
+      </div>
+      <div class="footer-row">
+          <h4>Make Money with Us</h4>
+          <ul>
+              <li><a href="https://seller.flipkart.com/sell-online#helpAndSupport" target="_blank">Sell on Flipkart</a></li>
+              <li><a href="https://affiliate.flipkart.com/" target="_blank">Become an Affiliate</a></li>
+              <li><a href="https://seller.flipkart.com/index.html?gad_source=1&gclid=EAIaIQobChMIjIjVvpyTiAMVBtUWBR2iiwFaEAAYASAAEgKqh_D_BwE#signUp/accountCreation/new?utm_source=google&utm_medium=how%20to%20sell%20in%20flipkart&utm_campaign=FSH_Brand_Search_Phraseonly_best%2Bkws" target="_blank">Advertise Your Products</a></li>
+          </ul>
+      </div>
+      <div class="footer-row">
+          <h4>Let Us Help You</h4>
+          <ul>
+              <li><a href="https://seller.flipkart.com/sell-online#helpAndSupport" target="_blank">Help & Support</a></li>
+              <li><a href="https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG" target="_blank">FAQs</a></li>
+              <li><a href="https://www.flipkart.com/helpcentre?otracker=${otracker}_footer_navlinks" target="_blank">Contact Us</a></li>
+          </ul>
+      </div>
+      <div class="footer-row">
+          <p>© 2024 Flipkart Clone. All rights reserved.</p>
+          <p>Made By Mirsad</p>
+      </div>
+  </footer>
+</body>
+</html>

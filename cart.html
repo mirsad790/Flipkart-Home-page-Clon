@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cart Page</title>
+	<link rel="stylesheet" type="text/css" href="cart.css">
+</head>
+<body>
+	<header>
+		<h1>Shopping Cart</h1>
+	</header>
+	<main>
+		<table id="cart-table">
+			<thead>
+				<tr>
+					<th>Product</th>
+					<th>Quantity</th>
+					<th>Price</th>
+					<th>Subtotal</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<img src="sunnn.webp" height="50px" width="50px" alt="Product 1">
+						<p>Product 1</p>
+					</td>
+					<td>
+						<input type="number" value="1" min="1">
+					</td>
+					<td>₹100.00</td>
+					<td>₹200.00</td>
+					<td>
+						<button class="remove-btn">Remove</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="Wallets.avif" height="125px" width="125px" alt="Product 2">
+						<p>Product 2</p>
+					</td>
+					<td>
+						<input type="number" value="2" min="1">
+					</td>
+					<td>₹145.00</td>
+					<td>₹200.00</td>
+					<td>
+						<button class="remove-btn">Remove</button>
+					</td>
+				</tr>
+				<!-- Add more products here -->
+			</tbody>
+		</table>
+		<div id="cart-summary">
+			<p>Subtotal: <span id="subtotal">₹400.00</span></p>
+			<p>Tax (10%): <span id="GST">₹40.00</span></p>
+			<p>Total: <span id="total">₹440.00</span></p>
+			<button id="checkout-btn">Checkout</button>
+		</div>
+	</main>
+</body>
+</html>
